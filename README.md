@@ -3,6 +3,8 @@ This java application highlights text differences between two plain strings by g
 
 The markTextDiff2() markups changes between text1 and text2 using the longestCommonSubsequence() method.
 
+The Hirschberg algorithm provides Longest Common Subsequence using a linear amount of memory.
+
 Java 8 or later is required to run the application.
 
 # Compile
@@ -33,7 +35,7 @@ If you load the html fragment with a browser, you get the following result:
 ![html fragment in a browser](diff_html_rendering.png)
 
 # Credits
-The longest common subsequence algorithm is credited to https://rosettacode.org/wiki/Longest_common_subsequence#Java
+The longest common subsequence Hirschberg algorithm is credited to https://commons.apache.org/proper/commons-text/index.html
 
 # Caveat
-This algorithm has O(n * m) complexity. In case of very long strings it is very slow and may run out of memory.
+This algorithm has O(n * m) complexity. In case of very long strings it is very slow.
