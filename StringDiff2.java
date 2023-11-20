@@ -1,7 +1,7 @@
 /** This class highlights text differences between two plain strings by generating html fragment to show changes using longest common subsequence algorithm
 
 version 1.0, 24-11-2022, first release
-version 1.1, 17-11-2022, Improved with Hirschberg algorithm to use linear amount of memory
+version 1.1, 17-11-2023, Improved with Hirschberg algorithm to use linear amount of memory
 
 */
 public class StringDiff2 {
