@@ -35,7 +35,7 @@ If you load the html fragment with a browser, you get the following result:
 ![html fragment in a browser](diff_html_rendering.png)
 
 # Credits
-The longest common subsequence Hirschberg algorithm is credited to https://commons.apache.org/proper/commons-text/index.html
+The java implementation of the longest common subsequence Hirschberg algorithm is credited to https://commons.apache.org/proper/commons-text/index.html
 
 # Caveat
 This algorithm has O(n * m) complexity. In case of very long strings it is very slow.
